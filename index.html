@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@1&display=swap" rel="stylesheet">
+    <title> Quiz | Game </title>
+</head>
+
+<body>
+    
+
+
+    <div class="container">
+
+        <audio id="correct">
+            <source src="correct.mp3" type="audio/mp3">
+          </audio>
+        <audio id="wrong">
+            <source src="wrong.mp3" type="audio/mp3">
+          </audio>
+
+        <h1 class="title"> Quiz | Game </h1>
+
+
+    <div class="timer-score ">
+        <div id="startTimer" class="timer">
+            Start
+        </div>
+
+        <div class="score">
+             0
+        </div>
+    </div>
+
+        <!-- // Ques -->
+
+        <div class="game-play">
+            <div class="ques">
+                Questions
+            </div>
+
+            <div class="main">
+                <button class="box btn" id="1">1</button>
+                <button class="box btn" id="2">2</button>
+                <button class="box btn" id="3">3</button>
+                <button class="box btn" id="4">4</button>
+                <button class="box btn" id="5">5</button>
+                <button class="box btn" id="6">6</button>
+                <button class="box btn" id="7">7</button>
+                <button class="box btn" id="8">8</button>
+                <button class="box btn" id="9">9</button>
+            </div>
+            
+
+
+        </div>
+    </div>
+
+    <div id="game-over-container">
+        <div id="game-over-box ">
+            <h1 class="">Game Over</h1>
+            <p class="final">Your score: 100</p>
+            <a href="http://127.0.0.1:5500/index.html"><img src="https://studio.code.org/v3/assets/YrtQrrr8mRnlXrgrdGkXrSx6G7AzerLnKSa-xdec9Z0/coollogo_com-17893562.png" alt="" srcset=""></a>
+            <!-- <button class="" onclick="restartGame()">Play Again</button> -->
+          </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
