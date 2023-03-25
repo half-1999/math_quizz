@@ -201,6 +201,7 @@ a{
       }
     .container{
         width: 96vw;
+        height: 98vh;
     margin-left: 2%;
         margin-top: 60px;
     }
